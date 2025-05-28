@@ -6,6 +6,7 @@ import WorkoutTypePieChart from "../components/WorkoutTypePieChart";
 import BestPaceLineChart from "../components/BestPaceLineChart";
 import LanguageSelector from "../components/LanguageSelector";
 import { useTranslation } from "../hooks/useTranslation";
+import Badges from "../components/Badges";
 
 const Dashboard = () => {
   const { user } = useAuthStore();
