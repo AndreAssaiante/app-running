@@ -13,6 +13,15 @@ const translations = {
     weeklyGoal: "Meta semanal",
     bestPace: "Melhor pace",
     volume: "Volume",
+    duration: "Duração",
+    intensity: "Intensidade",
+    date: "Dia",
+    noWorkouts: "Nenhum treino gerado ainda.",
+    effort: "Esforço percebido",
+    realTime: "Tempo real (min)",
+    notes: "Observações",
+    anythingToAdd: "Algo a dizer?",
+    cancel: "Cancelar"
   },
   en: {
     welcome: "Welcome,",
@@ -28,6 +37,15 @@ const translations = {
     weeklyGoal: "Weekly goal",
     bestPace: "Best pace",
     volume: "Volume",
+    duration: "Duration",
+    intensity: "Intensity",
+    date: "Date",
+    noWorkouts: "No workouts generated yet.",
+    effort: "Perceived effort",
+    realTime: "Actual time (min)",
+    notes: "Notes",
+    anythingToAdd: "Anything to add?",
+    cancel: "Cancel"
   },
   es: {
     welcome: "Bienvenido,",
@@ -43,6 +61,15 @@ const translations = {
     weeklyGoal: "Meta semanal",
     bestPace: "Mejor ritmo",
     volume: "Volumen",
+    duration: "Duración",
+    intensity: "Intensidad",
+    date: "Día",
+    noWorkouts: "Ningún entrenamiento generado aún.",
+    effort: "Esfuerzo percibido",
+    realTime: "Tiempo real (min)",
+    notes: "Observaciones",
+    anythingToAdd: "¿Algo que agregar?",
+    cancel: "Cancelar"
   },
   de: {
     welcome: "Willkommen,",
@@ -58,6 +85,15 @@ const translations = {
     weeklyGoal: "Wöchentliches Ziel",
     bestPace: "Beste Pace",
     volume: "Volumen",
+    duration: "Dauer",
+    intensity: "Intensität",
+    date: "Tag",
+    noWorkouts: "Noch keine Workouts erstellt.",
+    effort: "Wahrgenommene Anstrengung",
+    realTime: "Reale Zeit (Minuten)",
+    notes: "Bemerkungen",
+    anythingToAdd: "Noch etwas zu sagen?",
+    cancel: "Abbrechen"
   },
   fr: {
     welcome: "Bienvenue,",
@@ -73,6 +109,15 @@ const translations = {
     weeklyGoal: "Objectif hebdomadaire",
     bestPace: "Meilleur rythme",
     volume: "Volume",
+    duration: "Durée",
+    intensity: "Intensité",
+    date: "Jour",
+    noWorkouts: "Aucun entraînement généré pour le moment.",
+    effort: "Effort perçu",
+    realTime: "Temps réel (min)",
+    notes: "Remarques",
+    anythingToAdd: "Un mot à ajouter ?",
+    cancel: "Annuler"
   },
 };
 
