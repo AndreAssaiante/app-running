@@ -1,12 +1,12 @@
 import React from "react";
 import { useAuthStore } from "../store/authStore";
+import Badges from "../components/Badges";
 import WeeklyProgressChart from "../components/WeeklyProgressChart";
 import WeeklyVolumeChart from "../components/WeeklyVolumeChart";
 import WorkoutTypePieChart from "../components/WorkoutTypePieChart";
 import BestPaceLineChart from "../components/BestPaceLineChart";
 import LanguageSelector from "../components/LanguageSelector";
 import { useTranslation } from "../hooks/useTranslation";
-import Badges from "../components/Badges";
 
 const Dashboard = () => {
   const { user } = useAuthStore();
@@ -19,6 +19,12 @@ const Dashboard = () => {
       <h1 className="text-3xl font-bold mb-6">
         {t("welcome")} {user?.name}!
       </h1>
+
+      {/* Conquistas (badges) — exibidas em destaque logo abaixo do título */}
+      <section className="mb-8">
+        <Badges />
+      </section>
+
       <section className="mb-8">
         <p>{t("progress")} - {t("dashboard")} 🚀</p>
         <p>{t("start")} {t("trainings")}?</p>
