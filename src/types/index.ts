@@ -14,6 +14,7 @@ export interface User {
   goals: string[];
   weeklyGoal: number;
   targetRace?: '5k' | '10k' | 'half' | 'marathon';
+  unlockedBadges?: string[];
 }
 
 export interface TrainingZone {
