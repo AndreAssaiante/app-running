@@ -7,9 +7,9 @@ export type BadgeId =
 
 export interface Badge {
   id: BadgeId;
-  label: string;        // Agora é uma chave de tradução
-  description: string;  // Também uma chave
-  icon: string;         // Pode ser emoji
+  label: string;        // Chave de tradução
+  description: string;  // Chave de tradução
+  icon: string;
 }
 
 export const BADGES: Badge[] = [
