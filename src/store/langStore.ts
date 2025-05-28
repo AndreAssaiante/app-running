@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
-type Langs = "pt" | "en";
+export type Langs = "pt" | "en" | "es" | "de" | "fr";
 
 interface LangState {
   lang: Langs;
@@ -8,6 +8,6 @@ interface LangState {
 }
 
 export const useLangStore = create<LangState>()((set) => ({
-  lang: "pt", // Idioma padrão inicial (pt ou en)
+  lang: "pt",
   setLang: (lang) => set({ lang }),
 }));
