@@ -22,6 +22,19 @@ const translations = {
     notes: "Observações",
     anythingToAdd: "Algo a dizer?",
     cancel: "Cancelar"
+    achievements: "Conquistas",
+    unlocked: "Desbloqueado",
+    badge_first_workout_label: "Primeiro treino!",
+    badge_first_workout_desc: "Você completou seu primeiro treino. Parabéns pelo início!",
+    badge_five_workouts_label: "5 treinos completos",
+    badge_five_workouts_desc: "Primeiro grande passo para a regularidade!",
+    badge_seven_in_a_row_label: "7 dias seguidos",
+    badge_seven_in_a_row_desc: "Você treinou todos os dias da semana! Persistência é tudo.",
+    badge_fifty_km_label: "50km acumulados",
+    badge_fifty_km_desc: "Correu 50km no total. Isso é evolução!",
+    badge_first_week_complete_label: "Primeira semana completa",
+    badge_first_week_complete_desc: "Parabéns por concluir sua primeira semana de treinos.",
+  
   },
   en: {
     welcome: "Welcome,",
@@ -46,6 +59,19 @@ const translations = {
     notes: "Notes",
     anythingToAdd: "Anything to add?",
     cancel: "Cancel"
+    achievements: "Achievements",
+    unlocked: "Unlocked",
+    badge_first_workout_label: "First workout!",
+    badge_first_workout_desc: "You completed your first workout. Well done!",
+    badge_five_workouts_label: "5 workouts completed",
+    badge_five_workouts_desc: "First big step towards consistency!",
+    badge_seven_in_a_row_label: "7 days in a row",
+    badge_seven_in_a_row_desc: "You worked out every day of the week! Amazing persistence.",
+    badge_fifty_km_label: "50km total",
+    badge_fifty_km_desc: "You have run a total of 50km. That's progress!",
+    badge_first_week_complete_label: "First complete week",
+    badge_first_week_complete_desc: "Congrats on finishing your first training week.",
+      
   },
   es: {
     welcome: "Bienvenido,",
@@ -70,6 +96,18 @@ const translations = {
     notes: "Observaciones",
     anythingToAdd: "¿Algo que agregar?",
     cancel: "Cancelar"
+    achievements: "Logros",
+    unlocked: "Desbloqueado",
+    badge_first_workout_label: "¡Primer entrenamiento!",
+    badge_first_workout_desc: "Completaste tu primer entrenamiento. ¡Felicidades!",
+    badge_five_workouts_label: "5 entrenamientos completos",
+    badge_five_workouts_desc: "¡El primer gran paso para la regularidad!",
+    badge_seven_in_a_row_label: "7 días seguidos",
+    badge_seven_in_a_row_desc: "¡Entrenaste todos los días de la semana! Persistencia total.",
+    badge_fifty_km_label: "50 km acumulados",
+    badge_fifty_km_desc: "Llevas un total de 50km corridos. ¡Eso es evolución!",
+    badge_first_week_complete_label: "Primera semana completa",
+    badge_first_week_complete_desc: "¡Felicitaciones por completar la primera semana de entrenamientos!",
   },
   de: {
     welcome: "Willkommen,",
@@ -94,6 +132,20 @@ const translations = {
     notes: "Bemerkungen",
     anythingToAdd: "Noch etwas zu sagen?",
     cancel: "Abbrechen"
+    achievements: "Erfolge",
+    unlocked: "Freigeschaltet",
+    badge_first_workout_label: "Erstes Workout!",
+    badge_first_workout_desc: "Du hast dein erstes Workout abgeschlossen. Glückwunsch!",
+    badge_five_workouts_label: "5 Workouts abgeschlossen",
+    badge_five_workouts_desc: "Erster großer Schritt zur Regelmäßigkeit!",
+    badge_seven_in_a_row_label: "7 Tage in Folge",
+    badge_seven_in_a_row_desc: "Du hast an jedem Wochentag trainiert! Super Durchhaltevermögen.",
+    badge_fifty_km_label: "50 km insgesamt",
+    badge_fifty_km_desc: "Du bist insgesamt 50km gelaufen. Das ist Fortschritt!",
+    badge_first_week_complete_label: "Erste volle Woche",
+    badge_first_week_complete_desc: "Glückwunsch zum Abschluss deiner ersten Trainingswoche.",
+
+      
   },
   fr: {
     welcome: "Bienvenue,",
@@ -118,6 +170,19 @@ const translations = {
     notes: "Remarques",
     anythingToAdd: "Un mot à ajouter ?",
     cancel: "Annuler"
+    achievements: "Réussites",
+    unlocked: "Débloqué",
+    badge_first_workout_label: "Premier entraînement !",
+    badge_first_workout_desc: "Vous avez complété votre premier entraînement. Félicitations !",
+    badge_five_workouts_label: "5 entraînements terminés",
+    badge_five_workouts_desc: "Première grande étape vers la régularité !",
+    badge_seven_in_a_row_label: "7 jours consécutifs",
+    badge_seven_in_a_row_desc: "Vous vous êtes entraîné tous les jours de la semaine ! Quelle persévérance.",
+    badge_fifty_km_label: "50 km accumulés",
+    badge_fifty_km_desc: "Vous avez couru un total de 50km. Voilà du progrès !",
+    badge_first_week_complete_label: "Première semaine complète",
+    badge_first_week_complete_desc: "Bravo pour avoir terminé votre première semaine d'entraînement.",
+    // ...
   },
 };
 
