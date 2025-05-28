@@ -47,6 +47,7 @@ export interface WorkoutFeedback {
   perceivedExertion: 1 | 2 | 3 | 4 | 5;
   heartRateAvg?: number;
   heartRateMax?: number;
+  timeSpent?: number;
   fatigueLevel: 1 | 2 | 3 | 4 | 5;
   sleepQuality: 1 | 2 | 3 | 4 | 5;
   muscleSoreness: 1 | 2 | 3 | 4 | 5;
